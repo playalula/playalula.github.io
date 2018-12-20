@@ -103,7 +103,66 @@
       </header>
       <article>
         <h3>Rellena con sinceridad</h3>
+	<form method="get" action="https://cancerbero01.github.io/disenoWeb/ejerciciosTema3/reOpinion.html">
     <p><br>
     </p>
+		<fieldset>
+       	<legend>Tus datos de contacto</legend>
+            <p><label for="nombre">¿Cuál es tu nombre?</label><br>
+            <input name="nombre" id="nombre" class="input" type="text"></p>
+            <p><label for="nombre">¿Cuál es tu dirección de correo electrónico?</label><br> 
+            <input name="email" id="email" class="input" type="email"></p>
+            <p><label for="nombre">Indica la edad</label><br>  
+            <input name="edad" id="edad" class="input" type="number"></p>
+            <p><label for="edad2">Indica la edad</label><br>
+            <input name="edad2" id="edad2" type="range"></p>            
+            <p><label for="nombre">Indica teléfono</label> <br>
+            <input name="telefono" id="telefono" class="input" type="text"></p>   
+       </fieldset>
+       
+       <fieldset>
+         <legend>Elige tu envío</legend>
+	    <p style="margin-top:40px;"><label>¿qué deseas que te envíe?</label></p>
+            <input name="deseo" value="rico" id="rico" type="radio">
+         <label for="rico">Ser rico</label><br>
+            <input name="deseo" value="famoso" id="famoso" type="radio">
+         <label for="famoso">Ser famoso</label><br>
+            <input name="deseo" value="inteligente" id="inteligente" type="radio">
+         <label for="inteligente">Ser aún más inteligente</label><br>
+            <input name="deseo" value="otro" id="otro" type="radio">
+        <label for="otro">Otro...</label><br>
+            <p style="margin-top:40px;"><label>¿Otra Cosa?</label></p>
+             <p><input name="belleza" id="belleza" type="checkbox">
+             <label>Belleza</label></p>
+			<p><input name="habilidad" id="habilidad" type="checkbox">
+             <label>Habilidad</label></p>
+			<p><input name="personalidad" id="personalidad" type="checkbox">
+             <label>Personalidad</label></p>
+             <p style="margin-top:40px;"><label>¿En qué grado?</label></p>
+          <select name="grado" id="deseo">
+          <option value="ninguno" selected="selected">Elige un grado...</option>
+          	<optgroup label="poco">
+            	<option value="muy poco">Muy poco</option>
+                <option value="poco">Poco</option>
+            </optgroup> 
+            <optgroup label="mucho">
+            	<option value="algo">Algo</option>
+                <option value="mucho">Mucho</option>
+            </optgroup>               
+          </select>
+            <p><label>Si has elegido «Otro», especifica cuál:</label>
+            <textarea name="otro_texto" id="otro_texto" cols="40" rows="5"></textarea>
+         </p> 
+        </fieldset>
+        
+            
+       <input value="Enviar" class="boton" type="submit">
+       </form>
+      </article>
+    </section>
+    <footer>
+      <p>Copyright</p>
+      <p>Social Media Links</p>
+    </footer>
   </body>
 </html>
