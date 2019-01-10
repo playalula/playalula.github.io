@@ -1,4 +1,7 @@
 
+html {
+  font-size: 60px;
+ }
 p {
   color: red;
   width: 500px;
