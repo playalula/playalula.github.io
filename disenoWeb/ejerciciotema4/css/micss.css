@@ -2,10 +2,10 @@
 html {
   font-size: 20px;
  }
-p {
+a {
   color: red;
   width: 75px;
-  border: 10px solid black;
+  border: 1px solid yellow;
 }
 
 body > header{ margin-top: 60px; } 
